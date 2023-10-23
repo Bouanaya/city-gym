@@ -1,7 +1,7 @@
 <template>
   <div
     class="w-full flex justify-between py-3 fixed md:bg-[#27313935] px-6 z-50"
-    :class="({ showbg: !ShowBg }, { Shadow: !ShowBg })"
+    :class="( { Shadow: !ShowBg }, { show: !ShowBg })"
   >
     <router-link to="Home" class="flex gap-1">
       <h1 class="text-white text-5xl font-display">city</h1>
@@ -157,7 +157,7 @@
   text-align: center;
   position: absolute;
 }
-.showbg {
+.show{
   background-color: #151a1e;
 }
 .MEnuav {
