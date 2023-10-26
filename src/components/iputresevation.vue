@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white p-6 text-prumry  md:w-[600px] rounded-md my-2 md:my-10 ">
+    <div class="bg-white p-6 text-prumry  md:w-[600px] rounded-md my-4 md:my-10 ">
     
       <form>
         <div class=" md:flex justify-between items-center gap-8 my-4">

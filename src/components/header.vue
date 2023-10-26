@@ -1,7 +1,7 @@
 <template>
   <div
     class="w-full flex justify-between py-3 fixed md:bg-[#27313935] px-6 z-50"
-    :class="( { Shadow: !ShowBg }, { show: !ShowBg })"
+    :class="({ show:!ShowBg })"
   >
     <router-link to="Home" class="flex gap-1">
       <h1 class="text-white text-5xl font-display">city</h1>
@@ -159,14 +159,13 @@
 }
 .show{
   background-color: #151a1e;
+  box-shadow: #c5470a 0px 20px 20px -20px;
+  transition-duration: 0.5s;
 }
 .MEnuav {
   display: none;
 }
-.Shadow {
-  box-shadow: #c5470a 0px 20px 20px -20px;
-  transition-duration: 0.5s;
-}
+ 
 </style>
 <script setup>
 import { ref } from "vue";

@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+module.exports = 
+{
+  
+  
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
       display: ["Domine", "Poppins"],
     },
+   
     extend: {
       container: {
         center: true,
@@ -16,10 +20,12 @@ module.exports = {
           "2xl": "6rem",
         },
       },
+      
       colors: {
         prumry: "#122530",
         text: "#c5470a",
       },
+
       backgroundImage: {
         imgHome: "url('../../public/img/pexels-scott-webb-136404.jpg')",
         imgInfo: "url('../../public/img/pexels-estudio-polaroid-3112004.jpg')",
@@ -28,4 +34,5 @@ module.exports = {
       },
     },
   },
+  
 };

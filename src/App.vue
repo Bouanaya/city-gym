@@ -5,6 +5,7 @@
     <info></info>
     <Resevation></Resevation>
     <Actuialite></Actuialite>
+    <Footer></Footer>
 
   </div>
 </template>
@@ -14,6 +15,7 @@ import Concept from "./views/Concept.vue";
 import info from "./views/Info.vue";
 import Resevation from "./views/Resevation.vue";
 import Actuialite from "./views/Actuialite.vue";
+import Footer from "./views/Footer.vue";
 
 </script>
 <style scoped></style>

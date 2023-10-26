@@ -5,7 +5,7 @@
   >
     <div class="relative overflow-hidden ali">
       <img
-        src="../../public/img/pexels-cottonbro-studio-7674484.jpg"
+        src="https://cityclub.fitness/wp-content/uploads/2022/08/concept.jpg"
         alt=""
         class="md:w-80 md:h-96 rounded-md object-cover"
       />
@@ -24,7 +24,7 @@
     </div>
     <div class="relative ali overflow-hidden">
       <img
-        src="../../public/img/pexels-andres-ayrton-6551055.jpg"
+        src="https://cityclub.fitness/wp-content/uploads/2022/08/activites.jpg"
         alt=""
         class="md:w-80 md:h-96 rounded-md object-cover"
       />
@@ -42,7 +42,7 @@
     </div>
     <div class="relative ali overflow-hidden">
       <img
-        src="../../public/img/pexels-julia-larson-6456153.jpg"
+        src="https://cityclub.fitness/wp-content/uploads/2022/08/clubs.jpg"
         alt=""
         class="md:w-80 md:h-96 rounded-md object-cover"
       />
@@ -60,7 +60,7 @@
     </div>
     <div class="relative overflow-hidden ali">
       <img
-        src="../../public/img/pexels-cottonbro-studio-4325439.jpg"
+        src="https://cityclub.fitness/wp-content/uploads/2022/08/Tarifs-v2-1.jpg"
         alt=""
         class="md:w-80 md:h-96 rounded-md object-cover"
       />

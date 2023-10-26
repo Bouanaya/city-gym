@@ -1,8 +1,8 @@
 <template>
   <!-- JIT SUPPORT, for using peer-* below -->
 
-  <div class="h-[70%] p-3 relative">
-    <div class="w-96 mx-auto" style="scroll-snap-type: x mandatory;">
+  <div class="h-[70%] p-3 relative ">
+    <div class="w-96 mx-auto my-4 md:m-0" style="scroll-snap-type: x mandatory;">
       <!-- first -->
       <div class="">
         <input
@@ -14,7 +14,7 @@
         />
         <!-- content #1 -->
         <div
-          class="md:w-96 w-64 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0"
+          class="md:w-96 w-80 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0"
         >
           <div
             class="rounded-t-lg 
@@ -26,7 +26,7 @@
               alt=""
             />
           </div>
-          <div class="py-4 px-8">
+          <div class="py-4 px-6">
             <h1
               class="hover:cursor-pointer mt-2 text-text text-center font-bold text-xl tracking-tight"
             >
